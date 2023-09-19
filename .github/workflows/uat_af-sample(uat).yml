@@ -38,6 +38,6 @@ jobs:
         with:
           app-name: 'af-sample'
           slot-name: 'uat'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5376E971C8514F468D7334D8976C6813 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A9100ECA975F4D39A0B88433D45CDA1A }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
